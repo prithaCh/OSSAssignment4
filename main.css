@@ -1,5 +1,5 @@
 :root {
-    --green: #00FF00;
+    --green: #4CAF50;
     --white: #ffffff;
     --black: #000000;
   }
@@ -10,6 +10,8 @@
   }
   body {
       background: var(--bg);
+      background-color: var(--bgclr);
+      color: var(--clr);
       margin: 2em;
   }
 
@@ -30,8 +32,8 @@ li {
   }
   
   .light-theme {
-    --bg: var(--green);
-    --fontColor: var(--black);
+    --clr: #fff!important;
+    --bgclr: var(--green)!important;
   }
   .dark-theme {
     --bg: var(--black);
