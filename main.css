@@ -39,4 +39,11 @@ li {
     --bg: var(--black);
     --fontColor: var(--green);
   }
+
+  footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
   /* Dummy comment in source code */
