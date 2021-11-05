@@ -10,6 +10,7 @@
   }
   body {
       background: var(--bg);
+      margin: 2em;
   }
 
 ul {
