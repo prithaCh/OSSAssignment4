@@ -1,57 +1,50 @@
 :root {
-  --green: #4caf50;
-  --white: #ffffff;
-  --black: #000000;
-  --crimsonRed: #aa0909;
-}
+    --green: #4CAF50;
+    --white: #ffffff;
+    --black: #000000;
+    --crimsonRed: #aa0909;
+  }
 
-* {
-  color: var(--fontColor);
-  font-family: helvetica;
-}
-body {
-  background: var(--bg);
-  background-color: var(--bgclr);
-  color: var(--clr);
-}
+  * {
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+  body {
+      background: var(--bg);
+      background-color: var(--bgclr);
+      color: var(--clr);
+      
+  }
 
 ul {
-  font-family: helvetica;
+    font-family: helvetica;
 }
 
 li {
-  list-style: circle;
-}
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  #msg {
+    font-family: monospace;
+  }
+  
+  .light-theme {
+    --clr: #fff!important;
+    --bgclr: var(--green)!important;
+  }
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+  }
 
-.list {
-  list-style: square;
-}
-
-#msg {
-  font-family: monospace;
-}
-
-.light-theme {
-  --clr: #fff !important;
-  --bgclr: var(--green) !important;
-}
-.dark-theme {
-  --bg: var(--black);
-  --fontColor: var(--green);
-}
-
-footer {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-}
-
-div {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
-/* Dummy comment in source code */
+  footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+  /* Dummy comment in source code */
